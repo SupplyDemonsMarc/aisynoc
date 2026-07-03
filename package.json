@@ -1,0 +1,19 @@
+{
+  "name": "synoxhub",
+  "version": "1.0.0",
+  "description": "SynoxHub - AI, Downloader & Stalker multi-tool dashboard (no database, JSON file storage)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "bcryptjs": "^2.4.3",
+    "multer": "^2.0.1",
+    "ejs": "^3.1.10"
+  }
+}

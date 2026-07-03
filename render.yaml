@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: synoxhub
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
